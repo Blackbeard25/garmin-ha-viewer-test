@@ -1,0 +1,14 @@
+<settings>
+    <setting propertyKey="@Properties.haUrl" title="@Strings.UrlTitle">
+        <settingConfig type="alphaNumeric" required="true"/>
+    </setting>
+    <setting propertyKey="@Properties.haToken" title="@Strings.TokenTitle">
+        <settingConfig type="alphaNumeric" required="true"/>
+    </setting>
+    <setting propertyKey="@Properties.climateEntity" title="@Strings.ClimateTitle">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.refreshSec" title="@Strings.RefreshTitle">
+        <settingConfig type="numeric" min="0" max="3600"/>
+    </setting>
+</settings>

@@ -1,0 +1,6 @@
+<properties>
+    <property id="haUrl" type="string"></property>
+    <property id="haToken" type="string"></property>
+    <property id="climateEntity" type="string"></property>
+    <property id="refreshSec" type="number">60</property>
+</properties>

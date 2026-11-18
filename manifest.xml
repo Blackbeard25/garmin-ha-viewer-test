@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<iq:manifest version="3" xmlns:iq="http://www.garmin.com/xml/connectiq">
+    <iq:application id="ce6ec9eb36e84979ab5ed7f850cb41b3" type="watch-app" name="@Strings.AppName"
+        entry="HomeAssistantApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.4.0">
+        <iq:products>
+            <iq:product id="instinct3solar45mm"/>
+        </iq:products>
+        <iq:permissions>
+            <iq:uses-permission id="Communications"/>
+            <iq:uses-permission id="Positioning"/>
+        </iq:permissions>
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>

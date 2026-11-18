@@ -1,0 +1,7 @@
+<strings>
+    <string id="AppName">Home Assistant</string>
+    <string id="UrlTitle">Home Assistant URL (https://...)</string>
+    <string id="TokenTitle">Long-lived access token</string>
+    <string id="ClimateTitle">Thermostat entity (optional, e.g. climate.living_room)</string>
+    <string id="RefreshTitle">Auto refresh (seconds, 0 = off)</string>
+</strings>
